@@ -1,0 +1,57 @@
+@media only screen and (max-device-width: 640px),
+only screen and (max-device-width: 667px),
+only screen and (max-width: 480px) {	
+	#carousel-example-generic{
+		margin-top:6%; 
+	}
+	.embed-responsive {
+		margin-top:2%;
+	}
+	.logo img{
+		width:92px;
+		height:auto;
+		margin-left:12px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {	
+	.logo img{
+		width: 140px;
+		height:auto;
+	}
+	.navbar-default .navbar-nav > li > a {
+		font-size: 12px;
+		padding: 32px 8px 20px;
+	}
+	ul.navbar-nav{
+		margin-top:1%;
+	}
+	.slider .page-title{
+		position: absolute;
+		top: -260px;
+	}
+	.embed-responsive {
+		margin-top: 2%;
+	}
+
+}	
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding:0 10px;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+		padding: 2px 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+    .testimonial-review img{
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+}

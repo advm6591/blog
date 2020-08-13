@@ -1,0 +1,57 @@
+    .lista_servicio{
+      width: auto;
+    }
+
+    .lista_servicio {
+      background: #eee;
+      padding: 10px;
+      overflow: auto;
+      border-radius: 20px;
+      margin-top: 1%;
+    }
+
+    .lista_servicio:hover {
+      background: #b7b2b2;
+    }
+
+
+  h2{
+    text-align: center; 
+  }
+
+  .collapsible {
+    margin-top: 1%;
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 13px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+
+  }
+
+  .collapsible .active, .collapsible:hover {
+    background-color: #555;
+  }
+
+  .collapsible .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  p{
+    background: #eaeaea;
+    border-radius: 5px;
+  }
+
+  .container-p{
+    background: #eaeaea;
+    border-radius: 5px;
+  }
+
+

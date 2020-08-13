@@ -1,0 +1,777 @@
+
+    @font-face {
+        font-family: "GOTHICI";
+        src: url('../principal/images/GOTHICI_0.TTF') format("truetype");
+
+    }
+
+    @font-face {
+        font-family: "GOTHIC_PARRAFO";
+        src: url('../principal/images/GOTHIC_0.TTF') format("truetype");
+    }
+
+    .chao-mundo{
+        /*background:  black;*/
+       color: #ffffff;
+       text-align:right;
+       width: 100%;
+       height: 100%;
+       background-size: 100% 100%;
+       background-position: top center;
+    }
+    .titlee{
+        /*background:  black;*/
+       color: #ffffff;
+       text-align:right;
+       width: 100%;
+       height: 100%;
+       background-size: 100% 100%;
+       background-position: top center;
+       margin-top: 30px;
+    }
+    .foot{
+        /*background:  black;*/
+       color: #ffffff;
+       text-align:center;
+       width: 100%;
+       height: 10%;
+       background-size: 100% 100%;
+       background-position: bottom center;
+       background-color:#1B1A18;
+       padding: 20px;
+       font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+       font-family: "GOTHICI";
+    }
+     .floot{
+        /*background:  black;*/
+       color: #000000;
+       text-align:center;
+       width: 100%;
+       height: 10%;
+       background-size: 100% 100%;
+       background-position: bottom center;
+       background-color: #ffffff;
+       padding: 20px;
+       font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    }
+    html, body {
+        background-color: #444; margin-left:auto; margin-right:0%; width:auto; max-width: 100%;
+    overflow-x: hidden;
+    }
+    .form-signin input[type="text"] {
+        margin-bottom: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .form-signin input[type="password"] {
+        margin-bottom: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .form-signin input[type="textarea"] {
+        margin-bottom: 15px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding: 10px;
+        padding-bottom: 40px;
+        text-align:left;
+    }
+
+
+    .form-signin .form-control {
+        position: relative;
+        font-size: 14px;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        height: auto;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+
+    .vertical-offset-100 {
+        padding-top: 100px;
+    }
+    .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    }
+    .panel {
+        color: #482E17;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        background-color:rgba(245, 218, 165, 0.8);
+        border: 55px solid transparent;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .08);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    }
+    .bgg{
+
+        height: 100%;
+        /*background: url('//noche-pareja.jpg') no-repeat center;*/
+        background: url('../principal/images/pack.jpg') no-repeat center;
+        background-size: 100% 100%;
+        background-position: top center;
+      }
+
+      /* segunta seccion*/
+      .title2{
+        color:#000000;
+       text-align:left;
+       font-size:200%;
+       width: 100%;
+       height: 50%;
+       background-size: 100% 100%;
+       background-position: top right;
+       padding-top: 40px;
+       font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    }
+    .descripcion2{
+        margin-left: 20px;
+        font-size:200%;
+        text-align:justify;
+        background-position: top left;
+        padding: 40px;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+     }
+     .bgtext2{
+        text-align:justify;
+     }
+     .bgg2{
+         align-content: center;
+        width: 100%;
+        height: 100%;
+        background: url('../principal/corazon.jpeg') no-repeat center;
+        background-size: 100% 100%;
+        background-position: top center;
+      }
+      .foto_servicio1{
+         align-content: center;
+        width: 100%;
+        height: 100%;
+        background: url('../principal/fotografia.png') no-repeat center;
+        background-size: 100% 100%;
+        background-position: top center;
+      }
+      .foto_servicio2{
+         align-content: center;
+        width: 100%;
+        height: 100%;
+        background: url('../principal/logo1.jpg') no-repeat center;
+        background-size: 100% 100%;
+        background-position: top center;
+      }
+      .foot2{
+            /*background:  black;*/
+           color: white;
+           text-align:center;
+           width: 100%;
+           height: 10%;
+           background-position: bottom center;
+           background: url('../principal/images/contactos.jpg') no-repeat center;
+           background-size: 100%;
+       }
+
+      .foot_pack{
+            /*background:  black;*/
+           color: white;
+           text-align:center;
+           width: 100%;
+           height: 10%;
+           background-position: bottom center;
+           background: url('../principal/images/pack.jpg') no-repeat center;
+           background-size: 100%;
+       }
+
+       /*tercera seccion*/
+       .title3{
+        text-align:center;
+        font-size:200%;
+        width: 100%;
+        height: 50%;
+        background-size: 100% 100%;
+        background-position: top right;
+        padding-top: 50px;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+     }
+     .descripcion3{
+         margin-left: 20px;
+         font-size:200%;
+         text-align:justify;
+         background-position: top left;
+         padding: 40px;
+         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+      }
+      .bgtext3{
+         text-align:center;
+      }
+      .bggg{
+         align-content: center;
+         width: 100%;
+         height: 100%;
+         background: url('../principal/corazon.jpg') no-repeat center;
+         background-size: 100% 100%;
+         background-position: top center;
+       }
+       .foot3{
+         color: white;
+         text-align:center;
+         width: 100%;
+         height: 30%;
+         background-position: bottom center;
+         background: url('../principal/images/Territorio.jpg') no-repeat center;
+         background-size: 100%;
+         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+      }
+
+       .foot4{
+         color: white;
+         text-align:center;
+         width: 100%;
+         height: 30%;
+         background-position: bottom center;
+         background-color: black;
+         background-size: 100%;
+         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+      }
+
+        /*ultima seccion*/
+        .titleUltimo{
+        text-align:right;
+        font-size:200%;
+        width: 100%;
+        height: 50%;
+        background-size: 100% 100%;
+        background-position: top right;
+        padding-top: 40px;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+     }
+     .descripcionUltimo{
+         margin-left: 20px;
+         font-size:200%;
+         text-align:justify;
+         background-position: top left;
+         padding: 40px;
+         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+      }
+      .bgtextUltimo{
+         text-align:justify;
+      }
+      .bggUltimo{
+          align-content: center;
+         width: 100%;
+         height: 100%;
+         /*background: url('corazon.jpg') no-repeat center;*/
+         background-size: 100% 100%;
+         background-position: top center;
+       }
+       .footUltimo{
+          color: #ffffff;
+          width: 100%;
+          height: 10%;
+        background: url('../principal/descarga.jpg') no-repeat center;
+        background-size: 100% 100%;
+          padding: 50px;
+          font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+       }
+
+
+
+     /*carousel*/
+
+
+      .carousel{
+          background: #ffffff;
+          margin-top: 20px;
+      }
+      .carousel .item{
+          min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+      }
+      .carousel .item img{
+          margin: 0 auto; /* Align slide image horizontally center */
+      }
+    .bs-example{
+        margin: 20px;
+        }
+
+
+
+    .carousel-control-next-icon:after
+    {
+      font-size: 55px;
+      color: white;
+      background-color: white;
+    }
+
+    .carousel-control-prev-icon:after {
+      font-size: 55px;
+      color: white;
+    }
+
+
+
+    #myimage {
+      background: url(fotografia.png) no-repeat;
+    }
+
+    #contactanos {
+        bottom: 50%;
+        right: 0px;
+    }
+
+    #logo {
+        margin-top: 3%;
+        margin-left: 7%;
+        width: 85%;
+        height: 40%;
+    }
+
+    #logo_footer {
+        width: 25%;
+        height: 13%;
+    }
+
+
+    .carousel-indicators li:after{
+        background-color: black;
+        height: 0px;
+    }
+
+    .carousel-indicators .active:after {
+        background-color: #5a5a5a;
+    }
+
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+
+      background-image: none;
+    }
+
+    .carousel-control-next-icon:after
+    {
+      content: '>';
+      color: grey;
+    }
+
+    .carousel-control-prev-icon:after {
+      content: '<';
+      color: grey;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        border: 1px solid white;
+        background-image: none;
+    }
+
+    #quienes_div_principal{
+        margin-left: 3%;
+
+    }
+
+    #tu_pack{
+        margin-left: 3%;
+
+    }
+
+    #titulo_nuestros_servicios{
+        margin-left: 5%;
+        margin-bottom: 3%;
+
+    }
+
+    #opinion_h3{
+        margin-left: 5%;
+    }
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    .bgg{
+
+        height: 100%;
+        /*background: url('//noche-pareja.jpg') no-repeat center;*/
+        background: url('principal/images/Boda.jpg') no-repeat center;
+        background-size: 100% 100%;
+        background-position: top center;
+      }
+}
+
+@media only screen
+and (min-device-width : 250px)
+and (max-device-width : 667px) {
+    #logo {
+        margin-top: 10%;
+        margin-left: 3%;
+        width: 90%;
+        height: 75%;
+    }
+
+    .panel {
+        color: #482E17;
+        background-color:rgba(245, 218, 165, 0.8);
+        border: 55px solid transparent;
+        border-radius: 4px;
+        width: 90%;
+        margin-left: 6%;
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .08);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    }
+
+    .bgg{
+
+        height: 80%;
+        /*background: url('//noche-pareja.jpg') no-repeat center;*/
+        background: url('principal/images/foot6.jpg') no-repeat center;
+        background-size: 100% 100%;
+        background-position: top center;
+      }
+
+      .foot2{
+            /*background:  black;*/
+           color: white;
+           text-align:center;
+           width: 100%;
+           height: 100%;
+           background-position: bottom center;
+           background: url('principal/images/contactos.jpg') no-repeat center;
+       }
+
+      .foot_pack{
+            /*background:  black;*/
+           color: white;
+           text-align:center;
+           width: 100%;
+           height: 100%;
+           background-position: bottom center;
+           background: url('principal/images/pack.jpg') no-repeat center;
+       } 
+
+       .servicio_div{
+           margin-bottom: 12%;
+       }
+
+       .foot3{
+         color: white;
+         text-align:center;
+         width: 100%;
+         height: 30%;
+         background-position: bottom center;
+         background: url('principal/images/Territorio.jpg') no-repeat center;
+         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+      }
+
+       .foot4{
+         color: white;
+         text-align:center;
+         width: 100%;
+         height: 30%;
+         background-position: bottom center;
+         background-color: black;
+         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+      }
+
+      .footer_1{
+        margin-right: 7%;
+        margin-left: 0%;
+        text-align: center;
+      }
+
+
+        #titulo_quines_somos{
+            text-align: center;
+            font-size: 150%;
+        }
+
+        #titulo_nuestros_servicios{
+            text-align: center;
+            font-size: 150%;
+            margin-bottom: 3%;
+        }
+
+        #opinion_h3{
+            text-align: center;
+            font-size: 130%;
+        }
+
+        .parrago_opiniones{
+            font-size: 95%;
+             margin-left: 5%;
+        }
+
+        #logo_footer {
+            width: 65%;
+            height: 45%;
+        }
+
+
+}
+
+
+.wizard {
+    margin: 20px auto;
+    background: #fff;
+}
+
+    .wizard .nav-tabs {
+        position: relative;
+        margin: 40px auto;
+        margin-bottom: 0;
+        border-bottom-color: #e0e0e0;
+    }
+
+    .wizard > div.wizard-inner {
+        position: relative;
+    }
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #5bc0de;
+    
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs > li {
+    width: 25%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #5bc0de;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #5bc0de;
+}
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+    .wizard .nav-tabs > li a:hover {
+        background: transparent;
+    }
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media( max-width : 585px ) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+    background-size: 50px 50px;
+
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+#loading {
+    background: #f4f4f2 url("img/page-bg.png") repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.bokeh {
+    border: 0.01em solid rgba(150, 150, 150, 0.1);
+    border-radius: 50%;
+    font-size: 100px;
+    height: 1em;
+    list-style: outside none none;
+    margin: 0 auto;
+    position: relative;
+    top: 35%;
+    width: 1em;
+    z-index: 2147483647;
+}
+.bokeh li {
+    border-radius: 50%;
+    height: 0.2em;
+    position: absolute;
+    width: 0.2em;
+}
+.bokeh li:nth-child(1) {
+    animation: 1.13s linear 0s normal none infinite running rota, 3.67s ease-in-out 0s alternate none infinite running opa;
+    background: #00c176 none repeat scroll 0 0;
+    left: 50%;
+    margin: 0 0 0 -0.1em;
+    top: 0;
+    transform-origin: 50% 250% 0;
+}
+.bokeh li:nth-child(2) {
+    animation: 1.86s linear 0s normal none infinite running rota, 4.29s ease-in-out 0s alternate none infinite running opa;
+    background: #ff003c none repeat scroll 0 0;
+    margin: -0.1em 0 0;
+    right: 0;
+    top: 50%;
+    transform-origin: -150% 50% 0;
+}
+.bokeh li:nth-child(3) {
+    animation: 1.45s linear 0s normal none infinite running rota, 5.12s ease-in-out 0s alternate none infinite running opa;
+    background: #fabe28 none repeat scroll 0 0;
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 0 -0.1em;
+    transform-origin: 50% -150% 0;
+}
+.bokeh li:nth-child(4) {
+    animation: 1.72s linear 0s normal none infinite running rota, 5.25s ease-in-out 0s alternate none infinite running opa;
+    background: #88c100 none repeat scroll 0 0;
+    margin: -0.1em 0 0;
+    top: 50%;
+    transform-origin: 250% 50% 0;
+}
+@keyframes opa {
+12% {
+    opacity: 0.8;
+}
+19.5% {
+    opacity: 0.88;
+}
+37.2% {
+    opacity: 0.64;
+}
+40.5% {
+    opacity: 0.52;
+}
+52.7% {
+    opacity: 0.69;
+}
+60.2% {
+    opacity: 0.6;
+}
+66.6% {
+    opacity: 0.52;
+}
+70% {
+    opacity: 0.63;
+}
+79.9% {
+    opacity: 0.6;
+}
+84.2% {
+    opacity: 0.75;
+}
+91% {
+    opacity: 0.87;
+}
+}
+
+@keyframes rota {
+100% {
+    transform: rotate(360deg);
+}
+}
+
+}
+
+

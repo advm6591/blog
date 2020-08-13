@@ -1,0 +1,121 @@
+Skip to content
+Why GitHub? 
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+6 7 4 pixelgrade/rellax
+ Code  Issues 2  Pull requests 0  Projects 0  Insights
+Join GitHub today
+GitHub is home to over 31 million developers working together to host and review code, manage projects, and build software together.
+
+rellax/assets/css/bully.css
+c3de242  on 1 Feb 2017
+@razwan razwan cleanup and bump version to v0.3.1
+     
+89 lines (71 sloc)  1.48 KB
+[class*="c-bully"],
+[class*="c-bully"]:before,
+[class*="c-bully"]:after {
+    box-sizing: border-box;
+}
+
+.c-bully {
+    position: fixed;
+    top: 50%;
+    right: 48px;
+    font-size: 12px;
+    transform: translate(0, -50%);
+    z-index: 9000;
+    color: #000;
+}
+
+.c-bully--inversed {
+    color: #FFF;
+}
+
+.c-bully__bullet {
+    padding: 0.5em;
+    opacity: 0;
+
+    cursor: pointer;
+}
+
+.c-bully__bullet:after {
+    content: "";
+
+    display: block;
+    width: 1em;
+    height: 1em;
+
+    border: 2px solid currentColor;
+    border-radius: 50%;
+
+    will-change: transform;
+}
+
+.c-bully__bullet--active {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: top 0.2s ease-out;
+}
+
+.c-bully__bullet--active:before {
+    content: "";
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+    background: currentColor;
+    border-radius: 50%;
+}
+
+.c-bully__bullet--active:after {
+    border-color: transparent;
+}
+
+.c-bully__bullet--pop {
+    animation: bully-pop 0.6s cubic-bezier(0.485, 1.630, 0.430, 2) forwards, fade-in 0.2s 0.2s ease-out forwards;
+}
+
+.c-bully__bullet--squash {
+    opacity: 1;
+    animation: bully-squash 0.2s ease-out forwards;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+@keyframes bully-pop {
+    50% { transform: scale(0.7); }
+    100% { transform: scale(1); }
+}
+
+@keyframes bully-squash {
+    50% { transform: scale(0.6, 1.8) }
+    100% { transform: scale(1) }
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
